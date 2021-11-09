@@ -1,0 +1,10 @@
+@import '../abstracts/variables';
+
+.visitorContainer {
+  &__header {
+    margin-bottom: 25px;
+  }
+  &__visitorItem {
+    margin-bottom: 10px;
+  }
+}

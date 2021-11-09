@@ -1,0 +1,10 @@
+.cafesContainer {
+  text-align: center;
+  &__header {
+    text-align: center;
+  }
+  &__mapboxContainer {
+    height: 300px;
+    width: 375px;
+  }
+}

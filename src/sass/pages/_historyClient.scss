@@ -1,0 +1,23 @@
+@import '../abstracts/variables';
+
+.historyContainer {
+  &__active__item {
+    background-color: #3b3a41;
+    padding: 5px 15px;
+    border-radius: 25px;
+    margin-bottom: 50px;
+  }
+  &__visitedList {
+    text-align: center;
+    &__header {
+      border-bottom: 1px solid $white-color;
+      margin-bottom: 45px;
+    }
+    &__listHeader {
+      margin-bottom: 25px;
+    }
+    &__item {
+      border-bottom: 1px solid $white-color;
+    }
+  }
+}

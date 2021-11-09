@@ -1,0 +1,57 @@
+// css start screen
+@import '../abstracts/variables';
+
+.bovenkant {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__content {
+    &__logo {
+      img {
+        width: 227px;
+        height: 227px;
+      }
+    }
+    h1 {
+      color: $primary-color;
+      font-size: 35px;
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+}
+
+.startContainer {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  &__login {
+    button {
+      font-size: 20px;
+      cursor: pointer;
+      &:hover {
+        background-color: $primary-color;
+        color: $white-color;
+      }
+    }
+  }
+  &__register {
+    button {
+      font-size: 20px;
+      cursor: pointer;
+      &:hover {
+        color: $primary-color;
+        background-color: $white-color;
+      }
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}

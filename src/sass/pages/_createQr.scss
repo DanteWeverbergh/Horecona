@@ -1,0 +1,12 @@
+@import '../abstracts/variables';
+
+#qr {
+  color: $white-color;
+}
+
+#qrcode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}

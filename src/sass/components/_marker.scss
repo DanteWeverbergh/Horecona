@@ -1,0 +1,34 @@
+@import '../abstracts/variables';
+
+.currentLocation {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: red;
+}
+
+.innerCircle {
+  background-color: $background-color;
+}
+
+// pin styling
+#pin {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50% 50% 0px 50%;
+  position: relative;
+  transform: rotate(45deg);
+  // binnenste cirkeltje
+  &::after {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background: $background-color;
+    position: absolute;
+    left: 26%;
+    top: 26%;
+    border-radius: 60px;
+  }
+}

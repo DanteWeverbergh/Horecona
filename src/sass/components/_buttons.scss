@@ -1,0 +1,128 @@
+//button styling
+
+@import '../abstracts/variables';
+
+button {
+  width: 300px;
+  height: 62px;
+  border-radius: 25px;
+}
+
+#primary {
+  color: $primary-color;
+  border: none;
+  background-color: $white-color;
+  &:hover {
+    background-color: $primary-color;
+    color: $white-color;
+    cursor: pointer;
+  }
+}
+
+#secondary {
+  color: white;
+  background-color: $primary-color;
+  border: none;
+  &:hover {
+    background-color: $white-color;
+    color: $primary-color;
+    cursor: pointer;
+  }
+}
+
+#primarySmallLeft {
+  border-radius: 25px 0px 0px 25px;
+  width: 150px;
+  color: $primary-color;
+  border: none;
+  background-color: $white-color;
+  &:hover {
+    background-color: $primary-color;
+    color: white;
+    cursor: pointer;
+  }
+}
+
+#primarySmallRight {
+  border-radius: 0px 25px 25px 0px;
+  width: 150px;
+  color: $primary-color;
+  border: none;
+  background-color: $white-color;
+  &:hover {
+    background-color: $primary-color;
+    color: $white-color;
+    cursor: pointer;
+  }
+}
+
+#secondarySmallLeft {
+  border-radius: 25px 0px 0px 25px;
+  width: 150px;
+  background-color: $primary-color;
+  border: none;
+  color: $white-color;
+  &:hover {
+    background-color: $white-color;
+    color: $primary-color;
+    cursor: pointer;
+  }
+}
+
+#secondarySmallRight {
+  border-radius: 0px 25px 25px 0px;
+  width: 150px;
+  background-color: $primary-color;
+  border: none;
+  color: $white-color;
+  &:hover {
+    background-color: $white-color;
+    color: $primary-color;
+    cursor: pointer;
+  }
+}
+
+#registerBtn {
+  width: 300px;
+  height: 62px;
+  border-radius: 25px;
+  background-color: $primary-color;
+  text-align: center;
+  margin: auto;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+#navBtn {
+  background-color: $white-color;
+  color: $primary-color;
+
+  width: 160px;
+  height: 110px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  &:hover {
+    color: $white-color;
+    background-color: $primary-color;
+  }
+}
+
+#restaurant {
+  background-color: $background-color;
+  border: none;
+  color: $white-color;
+
+  &:hover {
+    background-color: $primary-color;
+  }
+}

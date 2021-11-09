@@ -1,0 +1,37 @@
+@import '../abstracts/variables';
+
+body {
+  background-color: $background-color;
+}
+
+#home {
+  text-align: center;
+}
+
+.logo {
+  img {
+    width: 217px;
+    height: 217px;
+  }
+}
+
+#appContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#link {
+  text-align: center;
+  margin-top: 10px;
+  a {
+    color: $white-color;
+  }
+}
+
+#google {
+  margin-top: 20px;
+}
